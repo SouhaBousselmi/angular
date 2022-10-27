@@ -1,3 +1,5 @@
+pipline{
+  stages{
 stage('Pull') {
         agent any
         steps {
@@ -11,3 +13,4 @@ stage('Pull') {
         }
     }
 }
+  }}
